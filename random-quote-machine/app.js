@@ -4,8 +4,8 @@ const { useState, useEffect } = React;
 
 const App = () => {
     const [quotesData, setQuotesData] = useState([]);
-    const [currentQuote, setCurrentQuote] = useState("Let's start our journey!");
-    const [currentAuthor, setCurrentAuthor] = useState('Yogiazy');
+    const [currentQuote, setCurrentQuote] = useState('');
+    const [currentAuthor, setCurrentAuthor] = useState('');
 
     const colors = [
         '#16a085',
@@ -35,6 +35,12 @@ const App = () => {
 
         getQuotes();
     }, []);
+
+    useEffect(() => {
+        if (quotesData.length > 0) {
+            getQuote();
+        }
+    }, [quotesData]);
 
     const getRandomQuote = () => quotesData[Math.floor(Math.random() * quotesData.length)];
     const getQuote = () => {
