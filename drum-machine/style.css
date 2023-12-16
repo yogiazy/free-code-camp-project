@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
-body {
-  font-family: Russo One;
-}
 
 body {
   user-select: none;
   background-color: #08b498;
+  font-family: Russo One;
 }
 
 #root {
