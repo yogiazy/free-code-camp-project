@@ -47,7 +47,7 @@ body {
 .fa-retweet:hover,
 .fa-compress:hover,
 .fa-arrows-alt:hover {
-    color: #57e2b1;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -147,7 +147,6 @@ body {
 }
 
 #preview code {
-    background: white;
     font-size: 0.875rem;
     font-weight: bold;
 }
@@ -155,7 +154,6 @@ body {
 #preview pre {
     display: block;
     overflow: auto;
-    background: white;
     padding: 5px;
     line-height: 1.2;
 }
