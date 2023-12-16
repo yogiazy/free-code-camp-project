@@ -15,6 +15,10 @@ body #container {
 body #container .main-title {
     font-size: 50px;
     margin-bottom: 20px;
+    font-weight: bold;
+    background-color: #706b6b;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 body #container .length-control {
@@ -22,11 +26,16 @@ body #container .length-control {
 }
 
 body #container button {
-    background: none;
+    padding: 5px;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
     outline: none;
     border: none;
-    color: white;
+    color: rgb(88, 86, 86);
     cursor: pointer;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.61);
 }
 
 body #container .btn-level,
@@ -40,7 +49,7 @@ body #container .length-control .btn-level:nth-child(3) {
 }
 
 body #container .timer {
-    border: 7px solid #13353a;
+    border: 7px solid #2b3024;
     margin: 20px auto 10px auto;
     width: 270px;
     height: 160px;

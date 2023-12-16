@@ -214,7 +214,7 @@
         render() {
             return (
                 <div>
-                    <div className="main-title">25 + 5 Clock</div>
+                    <div className="main-title">Pomodoro Clock</div>
                     <LengthControl
                         addID="break-increment"
                         length={this.state.brkLength}
