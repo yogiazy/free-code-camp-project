@@ -1,0 +1,82 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono';
+
+#root {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background: #282c35;
+    font-family: 'Roboto Mono', monospace;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.calculator {
+    border: 2px solid #47476b;
+    padding: 5px;
+    background: #1e1e2e;
+    width: 320px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.formulaScreen {
+    min-height: 20px;
+    font-size: 20px;
+    color: #61dafb;
+    text-align: right;
+    vertical-align: text-top;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.outputScreen {
+    font-size: 36px;
+    color: #fff;
+    text-align: right;
+    line-height: 40px;
+}
+
+button {
+    position: relative;
+    height: 65px;
+    width: 80px;
+    color: white;
+    outline: none;
+    border: solid 3px #1e1e2e;
+    background: #4d4d4d;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #5e5e5e;
+}
+
+.jumbo {
+    width: 160px;
+}
+
+.author {
+    text-align: center;
+    font-family: 'Roboto Mono', sans-serif;
+    margin-top: 15px;
+}
+
+.author a {
+    text-decoration: none;
+    color: #61dafb;
+    line-height: 26px;
+}
