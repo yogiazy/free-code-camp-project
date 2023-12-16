@@ -1,5 +1,5 @@
 body {
-    background: #1e555c;
+    background: #566368;
     color: white;
     font-size: 30px;
     text-align: center;
@@ -75,18 +75,4 @@ body #container .timer .timer-control button:active {
         -ms-transform: scale(0.8);
         -o-transform: scale(0.8);
     }
-}
-
-.author {
-    text-align: center;
-    font-family: Share Tech Mono, sans;
-    margin-top: 15px;
-    font-size: 14px;
-    color: #a50d0d;
-}
-
-.author a {
-    text-decoration: none;
-    color: #00264d;
-    line-height: 26px;
 }
